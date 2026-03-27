@@ -17,7 +17,7 @@
 <details>
   <summary>👨‍💻Mais sobre mim</summary>
 
-  - 💬 Tenho 17 anos, nasci e moro no Brasil. Eu não sei muito inglês, mas estou aprendendo. Sou esperênte com HTML, CSS, JS, PHP e C#. Comecei a estudar programação em 2024.
+  - 💬 Tenho 17 anos, nasci e moro no Brasil. Eu não sei muito inglês, mas estou aprendendo. Sou experiente com HTML, CSS, JS, PHP e C#. Comecei a estudar programação em 2024.
   - Sou criativo, tenho boa comunicação, bom marketing, sei trabalhar em equipe, sou social e sempre busco ajudar aqueles que precisam de ajuda.
 
   - ⚡ No meu tempo livre eu gosto de ler quadrinhos e jogar bastante jogos! Eu tambem procuro solucionar problemas do dia a dia e estudar algumas coisas. \o/
@@ -77,15 +77,7 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" height="30" alt="php logo"  />
 </div>
 
-<div align="left">
-  <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="gmail logo"  />
-  <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="linkedin logo"  />
-  <img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=&color=7289DA&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="discord logo"  />
-</div>
 
-<br clear="both">
-
-<img src="https://raw.githubusercontent.com/maurodesouz/maurodesouz/output/snake.svg" alt="Snake animation" />
 
 
 <picture>

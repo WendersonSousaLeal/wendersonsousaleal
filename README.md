@@ -1,7 +1,7 @@
 <!--título-->
 <div id="user-content-toc">
   <ul align="center">
-    <summary><h1 style="display: inline-block">Hello World</h1></summary>
+    <summary><h1 style="display: inline-block">Hello World <br> <img align="right" height="150" src="https://media.tenor.com/RzSPDIqkgoIAAAAM/goku-dragon-ball-z.gif"  /></h1></summary>
 </div>
 
 <!-- Presentation -->
@@ -64,17 +64,17 @@
 </div>
   </div>
 <br>
-  <img align="right" height="150" src="https://media.tenor.com/RzSPDIqkgoIAAAAM/goku-dragon-ball-z.gif"  />
 
   <!-- Skills: Tools & Frameworks -->
   <div style="flex-basis: 48%;">
     <h3>Tools & Frameworks</h3>
+    <div align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="40" alt="vscode logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-plain.svg" height="40" alt="visualstudio logo"  />
+</div>
     
     
-
-
-
-
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/WendersonSousaLeal/WendersonSousaLeal/output/pacman-contribution-graph-dark.svg">

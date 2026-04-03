@@ -1,0 +1,53 @@
+name: Generate pacman animation
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  generate:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate pacman-contribution-graph.svg
+        uses: abozanona/pacman-contribution-graph@main
+        with:
+          github_user_name: ${{ github.repository_owner }}
+      
+      - name: Debug - List generated files
+        run: ls -la *.svg 2>/dev/null || echo "Nenhum SVG encontrado na raiz"
+
+      - name: Create output directory and copy file
+        run: |
+          mkdir -p output
+          if [ -f "pacman-contribution-graph.svg" ]; then
+            cp pacman-contribution-graph.svg output/
+            echo "✅ Arquivo copiado com sucesso"
+          else
+            echo "❌ Arquivo não encontrado!"
+            exit 1
+          fi
+
+      - name: Configure git
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+
+      - name: Push to output branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: output
+          commit_message: "Update pacman contribution graph"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

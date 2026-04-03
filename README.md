@@ -8,7 +8,7 @@
 <p>
   Opa! 👋, Me chamo Wenderson! Sou estudante de Desenvolvimento de Sistemas no Brasil.
 
-  - 🌱 Eu estudo Desenvolvimento de Sistemas na Etec <img align="center" width="50px" alt="html5" src="https://bkpsitecpsnew.blob.core.windows.net/uploadsitecps/sites/1/2022/09/logo-cps-2022.svg" />
+  - 🌱 Eu estudo Desenvolvimento de Sistemas na Etec <img align="center" width="50px" alt="html5" src="https://bkpsitecpsnew.blob.core.windows.net/uploadsitecps/sites/1/2022/09/logo-cps-2022.svg[...]  
 
   - 🔭 Eu procuro oportunidades de estágio. Meu sonho é trabalhar como Engenheiro de Software em uma empresa grande.
 </p>
@@ -75,11 +75,10 @@
 </div>
     
     
-
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/WendersonSousaLeal/WendersonSousaLeal/output/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/WendersonSousaLeal/WendersonSousaLeal/output/pacman-contribution-graph.svg">
-  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/WendersonSousaLeal/WendersonSousaLeal/output/pacman-contribution-graph.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/WendersonSousaLeal/wendersonsousaleal/output/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/WendersonSousaLeal/wendersonsousaleal/output/pacman-contribution-graph.svg">
+  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/WendersonSousaLeal/wendersonsousaleal/output/pacman-contribution-graph.svg">
 </picture>
 
 ###

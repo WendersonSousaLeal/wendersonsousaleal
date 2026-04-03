@@ -1,11 +1,9 @@
 name: Generate pacman animation
 
 on:
-  schedule: # execute every 12 hours
+  schedule:
     - cron: "0 */12 * * *"
-
   workflow_dispatch:
-
   push:
     branches:
       - main
@@ -26,20 +24,26 @@ jobs:
         with:
           github_user_name: ${{ github.repository_owner }}
       
-      - name: List generated files
-        run: find . -name "pacman-contribution-graph.svg" -type f
+      - name: Debug - List generated files
+        run: ls -la *.svg 2>/dev/null || echo "Nenhum SVG encontrado na raiz"
 
-      - name: Criar diretório de output
+      - name: Create output directory and copy file
         run: |
           mkdir -p output
-          cp pacman-contribution-graph.svg output/ || true
+          if [ -f "pacman-contribution-graph.svg" ]; then
+            cp pacman-contribution-graph.svg output/
+            echo "✅ Arquivo copiado com sucesso"
+          else
+            echo "❌ Arquivo não encontrado!"
+            exit 1
+          fi
 
-      - name: Configurar git
+      - name: Configure git
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
 
-      - name: Push pacman-contribution-graph.svg para a branch output
+      - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output

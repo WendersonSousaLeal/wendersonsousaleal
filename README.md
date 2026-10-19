@@ -16,7 +16,6 @@
 </div>
 
 👋 Sobre mim
-<img align="right" width="118" src="https://media.tenor.com/RzSPDIqkgoIAAAAM/goku-dragon-ball-z.gif" alt="Goku em uma animação" />
 
 Sou estudante de Desenvolvimento de Sistemas e estou construindo minha trajetória em tecnologia por meio de projetos práticos. Tenho interesse em desenvolvimento web, programação com Python, bancos de dados e soluções que tornem tarefas e experiências mais acessíveis.
 - 🧩 Como aprendo: colocando a mão no código, experimentando e melhorando a cada versão.
